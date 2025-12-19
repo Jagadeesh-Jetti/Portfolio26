@@ -1,14 +1,17 @@
-import React from 'react';
-import { TopHeader } from './components/header/TopHeader';
-import { BottomNav } from './components/navigation/BottomNav';
+import { Routes, Route } from 'react-router-dom';
+import { AppLayout } from './layouts/AppLayout';
 
 function App() {
   return (
-    <React.Fragment>
-      <TopHeader />
-
-      <BottomNav />
-    </React.Fragment>
+    <Routes>
+      <Route element={<AppLayout />}>
+        <Route path="/" element={<Feed />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/blogs" element={<Skills />} />
+        <Route path="/resume" element={<Resume />} />
+      </Route>
+    </Routes>
   );
 }
 
