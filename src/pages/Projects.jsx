@@ -9,6 +9,10 @@ const FILTERS = ['All', 'Landing Pages', 'Frontend', 'Full Stack', 'Backend'];
 export const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
 
+  const filteredProjects = projectsData.filter(
+    (project) => project.type === activeFilter
+  );
+
   return (
     <div className=" bg-gray-200">
       {/* <h1 className="font-bold ml-1"> Projects</h1> */}
@@ -29,7 +33,7 @@ export const Projects = () => {
         ))}
       </div>
 
-      {projectsData.map((project) => (
+      {filteredProjects.map((project) => (
         <div className=" mb-3 p-4 border-none border-amber-950 shadow-md bg-white">
           <div className="text-xl font-semibold ">{project?.title}</div>
           <div className="flex gap-2  ">

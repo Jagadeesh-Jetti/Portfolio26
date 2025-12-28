@@ -22,7 +22,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="m-1">{post.content}</div>
+          <div className="m-1 mb-2">{post.content}</div>
           <div>
             {post?.images?.length > 0 && (
               <div>
