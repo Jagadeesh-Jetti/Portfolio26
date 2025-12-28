@@ -30,4 +30,101 @@ export const projectsData = [
     featured: false,
     type: 'Frontend',
   },
+  {
+    id: 3,
+    title: 'Paytm',
+    shortDescription: 'A finance tech platform',
+    description:
+      'Paytm is an AI-powered productivity planner built with the MERN stack. It helps users set goals, plan tasks, and stay consistent with their workflow. The app includes secure authentication, full CRUD task management, Redux-based global state handling, and a clean, distraction-free UI styled using Tailwind CSS.',
+    visitLink: 'https://focusflow.app', // can be "#" for now
+    codeLink: 'https://github.com/yourusername/focusflow',
+    techstack: ['MERN', 'Redux', 'Tailwind CSS'],
+    images: [
+      '/images/focusflow-1.png',
+      '/images/focusflow-2.png',
+      '/images/focusflow-3.png',
+    ],
+    type: 'Full Stack',
+  },
+  {
+    id: 4,
+    title: 'Justyle',
+    shortDescription: 'An ecommerce web application for apparel industry',
+    description:
+      'Justyle is an AI-powered productivity planner built with the MERN stack. It helps users set goals, plan tasks, and stay consistent with their workflow. The app includes secure authentication, full CRUD task management, Redux-based global state handling, and a clean, distraction-free UI styled using Tailwind CSS.',
+    visitLink: 'https://focusflow.app', // can be "#" for now
+    codeLink: 'https://github.com/yourusername/focusflow',
+    techstack: ['MERN', 'Redux', 'Tailwind CSS'],
+    images: [
+      '/images/focusflow-1.png',
+      '/images/focusflow-2.png',
+      '/images/focusflow-3.png',
+    ],
+    type: 'Frontend',
+  },
+  {
+    id: 5,
+    title: 'Bondify',
+    shortDescription:
+      'Bondify is an social media platform considered to be a sister of Twitter',
+    description:
+      'Bondify is an AI-powered productivity planner built with the MERN stack. It helps users set goals, plan tasks, and stay consistent with their workflow. The app includes secure authentication, full CRUD task management, Redux-based global state handling, and a clean, distraction-free UI styled using Tailwind CSS.',
+    visitLink: 'https://focusflow.app', // can be "#" for now
+    codeLink: 'https://github.com/yourusername/focusflow',
+    techstack: ['MERN', 'Redux', 'Tailwind CSS'],
+    images: [
+      '/images/focusflow-1.png',
+      '/images/focusflow-2.png',
+      '/images/focusflow-3.png',
+    ],
+    type: 'Frontend',
+  },
+  {
+    id: 6,
+    title: 'Nike',
+    shortDescription: 'A landing page for Nike',
+    description:
+      'Nike is an AI-powered productivity planner built with the MERN stack. It helps users set goals, plan tasks, and stay consistent with their workflow. The app includes secure authentication, full CRUD task management, Redux-based global state handling, and a clean, distraction-free UI styled using Tailwind CSS.',
+    visitLink: 'https://focusflow.app', // can be "#" for now
+    codeLink: 'https://github.com/yourusername/focusflow',
+    techstack: ['MERN', 'Redux', 'Tailwind CSS'],
+    images: [
+      '/images/focusflow-1.png',
+      '/images/focusflow-2.png',
+      '/images/focusflow-3.png',
+    ],
+    type: 'Landing Pages',
+  },
+  {
+    id: 7,
+    title: 'Tech Product',
+    shortDescription: 'A landing page for a tech product',
+    description:
+      'Tech product is an AI-powered productivity planner built with the MERN stack. It helps users set goals, plan tasks, and stay consistent with their workflow. The app includes secure authentication, full CRUD task management, Redux-based global state handling, and a clean, distraction-free UI styled using Tailwind CSS.',
+    visitLink: 'https://focusflow.app', // can be "#" for now
+    codeLink: 'https://github.com/yourusername/focusflow',
+    techstack: ['MERN', 'Redux', 'Tailwind CSS'],
+    images: [
+      '/images/focusflow-1.png',
+      '/images/focusflow-2.png',
+      '/images/focusflow-3.png',
+    ],
+    type: 'Landing Pages',
+  },
+  {
+    id: 8,
+    title: 'Any Product',
+    shortDescription: 'A landing page for Nike',
+    description:
+      'Any product is an AI-powered productivity planner built with the MERN stack. It helps users set goals, plan tasks, and stay consistent with their workflow. The app includes secure authentication, full CRUD task management, Redux-based global state handling, and a clean, distraction-free UI styled using Tailwind CSS.',
+    visitLink: 'https://focusflow.app', // can be "#" for now
+    codeLink: 'https://github.com/yourusername/focusflow',
+    techstack: ['MERN', 'Redux', 'Tailwind CSS'],
+    images: [
+      '/images/focusflow-1.png',
+      '/images/focusflow-2.png',
+      '/images/focusflow-3.png',
+    ],
+    type: 'Landing Pages',
+  },
 ];
