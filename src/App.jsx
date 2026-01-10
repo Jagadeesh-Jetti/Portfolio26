@@ -8,15 +8,17 @@ import { Resume } from './pages/Resume';
 
 function App() {
   return (
-    <Routes>
-      <Route element={<AppLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/resume" element={<Resume />} />
-      </Route>
-    </Routes>
+    <div className="bg-gray-100">
+      <Routes>
+        <Route element={<AppLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/resume" element={<Resume />} />
+        </Route>
+      </Routes>
+    </div>
   );
 }
 

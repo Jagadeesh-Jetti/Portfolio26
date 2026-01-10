@@ -3,9 +3,9 @@ import { posts } from '../data/postsData';
 
 export const Home = () => {
   return (
-    <div className="bg-gray-200">
+    <div className="">
       {posts.map((post) => (
-        <div className="mb-3 border border-gray-300 p-4 bg-white">
+        <div className="mb-3 border-none border-gray-300 p-4 bg-white">
           <div className="flex gap-2">
             <div className="w-12 h-12 border rounded-3xl">
               <img
