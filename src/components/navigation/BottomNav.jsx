@@ -1,24 +1,14 @@
-import { House, CodeXml, Wrench, NotebookPen, FileText } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
-
 export const BottomNav = () => {
-  const navigate = useNavigate();
   return (
-    <div className="flex justify-around items-center p-3 fixed bg-white bottom-0 w-full">
-      <div onClick={() => navigate('/')}>
-        <House />
-      </div>
-      <div onClick={() => navigate('/projects')}>
-        <CodeXml />
-      </div>
-      <div onClick={() => navigate('/skills')}>
-        <Wrench />
-      </div>
-      <div onClick={() => navigate('/blogs')}>
-        <NotebookPen />
-      </div>
-      <div onClick={() => navigate('/resume')}>
-        <FileText />
+    <div className="flex justify-around items-center p-3 mt-10 text-sm bottom-0 w-full">
+      <div>
+        <div className="flex">
+          <div className="font-light mr-1">Designed & Developed by</div>
+          <div className="font-medium"> Jagadeesh Jetti</div>
+        </div>
+        <div className=" font-light text-center ">
+          @ 2026. All rights reserved.
+        </div>
       </div>
     </div>
   );
