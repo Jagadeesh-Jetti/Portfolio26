@@ -11,7 +11,7 @@ const skills = [
 
 export const Skills = () => {
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap max-h">
       {skills.map((skill) => (
         <div className="w-max h-10 m-1 p-2 bg-black text-white"> {skill} </div>
       ))}
