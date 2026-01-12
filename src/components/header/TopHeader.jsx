@@ -6,7 +6,7 @@ export const TopHeader = () => {
   const navigate = useNavigate();
   return (
     <div className="flex justify-between my-5 p-4 bg-white">
-      <div>
+      <div onClick={() => navigate('/bio')}>
         <CircleUserRound />
       </div>
       <div onClick={() => navigate('/')}>
